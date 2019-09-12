@@ -28,7 +28,7 @@
                             {%if loop.first%}
                             <div class="alert alert-success alert-dismissible" role="alert">
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                {{msg.decode("utf-8")}}
+                                {{msg}}
                             </div>
                             {%endif%}
                             {%endfor%}
@@ -59,7 +59,7 @@
                                 <div class="col-sm-9">
                                     <input type="text" class="form-control {%if form.username.errors%}input-error{%endif%}" name="username" placeholder="用户名称" value="{{current_user.username}}">
                                     {%for error in form.username.errors%}
-                                    <div class="input-error-info">{{error.decode("utf-8")}}</div>
+                                    <div class="input-error-info">{{error}}</div>
                                     {%endfor%}
                                 </div>
                             </div>
@@ -69,7 +69,7 @@
                                 <div class="col-sm-9">
                                     <input type="text" class="form-control {%if form.pathname.errors%}input-error{%endif%}" name="pathname" placeholder="个性化域名" value="{{current_user.pathname}}">
                                     {%for error in form.pathname.errors%}
-                                    <div class="input-error-info">{{error.decode("utf-8")}}</div>
+                                    <div class="input-error-info">{{error}}</div>
                                     {%endfor%}
                                     <span class="help-block" style="color:#dc7745;">只能修改一次</span>
                                 </div>

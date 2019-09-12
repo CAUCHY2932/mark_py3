@@ -24,7 +24,7 @@
                     <div class="form-group">
                         <input class="form-control {%if form.title.errors%}input-error{%endif%}" name="title" type="text" autocomplete="off" placeholder="标题" {%if form.title.data%}value="{{form.title.data}}" {%else%}value="{{article.title}}" {%endif%}>
                         {%for error in form.title.errors%}
-                        <div class="input-error-info">{{error.decode("utf-8")}}</div>
+                        <div class="input-error-info">{{error}}</div>
                         {%endfor%}
                         
                     </div>

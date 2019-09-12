@@ -2,145 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9b00e95-62ef-4275-bb8a-cd2baef1cf40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markbj.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/article/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/article/ajax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/article/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/article/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/article/models.py.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/article/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/ajax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/avatar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/avatar.py.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/common.py.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/data_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/upload_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/upload_file.py.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/url.py.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/ajax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/ajax.py.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/forms.py.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/import_html.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/import_html.py.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/models.py.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/views.py.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/setting/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/setting/ajax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/setting/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/setting/forms.py.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/setting/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/setting/views.py.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/css/article.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/css/edit.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/css/error.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/css/home.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/css/new_article.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/css/reader_article.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/css/search.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/css/setting.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/css/sign.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/css/topic.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/css/topic_list.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/css/user.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/js/auth_common.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/js/basic_setting.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/js/common.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/js/edit_article.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/js/history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/js/json2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/js/new_article.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/js/register.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/js/respond.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/js/topic_list.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/js/user.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/dist/js/validate_home.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/blue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/_common_js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/_footer_aside.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/_pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/article/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/article/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/article/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/article/reader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/article/setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/403.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/_search_topic_result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/_topic_pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/password_change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/password_forgot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/password_validate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/password_verification_code.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/topic-article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home/topic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/setting/_main-left.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/setting/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/setting/password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/setting/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/user/_main-left.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/user/_user-head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/user/include/_article_item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/user/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user/ajax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/user/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/markbj.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/versions/0cf78227007d_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markbj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markbj.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/article/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/article/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/setting/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/setting/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/article/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/article/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/article/setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/article/setting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/home/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/password_change.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/home/password_change.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/password_forgot.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/home/password_forgot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/password_validate.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/home/password_validate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/home/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/setting/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/setting/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/setting/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/setting/password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/setting/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/setting/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/user/_main-left.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/user/_main-left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user/ajax.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/ajax.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markbj.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/markbj.sqlite" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,11 +48,18 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QiblkzjGowF2toxa0fkt3OUpgb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -189,7 +78,44 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Flask server.Flask (manage.py)">
+    <configuration name="avatar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="markbj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/common/avatar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (manage.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="markbj" />
+      <option name="target" value="$PROJECT_DIR$/manage.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="markbj" type="Python.FlaskServer">
       <module name="markbj" />
       <option name="target" value="$PROJECT_DIR$/app/__init__.py" />
@@ -205,6 +131,12 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (manage.py)" />
+        <item itemvalue="Python.avatar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -216,8 +148,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568256516844</updated>
-      <workItem from="1568256520637" duration="2960000" />
+      <workItem from="1568256520637" duration="6731000" />
     </task>
+    <task id="LOCAL-00001" summary="# [lvyangyang]- init mark project">
+      <created>1568260012857</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568260012857</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,5 +173,29 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="# [lvyangyang]- init mark project" />
+    <option name="LAST_COMMIT_MESSAGE" value="# [lvyangyang]- init mark project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/common/avatar.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/common/avatar.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/markbj$avatar.coverage" NAME="avatar Coverage Results" MODIFIED="1568268612776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/common" />
+    <SUITE FILE_PATH="coverage/markbj$Flask__manage_py_.coverage" NAME="Flask (manage.py) Coverage Results" MODIFIED="1568268702376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

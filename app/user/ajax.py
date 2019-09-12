@@ -1,4 +1,4 @@
-#coding: utf-8
+# coding: utf-8
 
 from flask import current_app, request, render_template, url_for
 from flask_login import current_user
@@ -43,7 +43,7 @@ def user_topic_url(source, t, user, tpage):
     return url_for("user.article", topic=t.name, pathname=user.pathname, tpage=tpage)
 
 
-def topic_page(tpage=1, uid=None,source=None):
+def topic_page(tpage=1, uid=None, source=None):
     if not source or source != "article":
         return message("error", "", "数据有误")
     tpage = int(tpage)
@@ -54,7 +54,8 @@ def topic_page(tpage=1, uid=None,source=None):
     Topic = app.home.models.Topic
     topics = Topic.get_user_article_topics(user.id, tpage)
     value = {}
-    value["items"] = [{"name":t.name, "href":user_topic_url(source, t, user, tpage), "count": count} for t, count in topics.items]
+    value["items"] = [{"name": t.name, "href": user_topic_url(source, t, user, tpage), "count": count} for t, count in
+                      topics.items]
     if topics.has_prev:
         value["prev"] = topics.prev_num
     if topics.has_next:
@@ -63,7 +64,7 @@ def topic_page(tpage=1, uid=None,source=None):
 
 
 AJAX_METHODS = {
-    "topic_page":topic_page
+    "topic_page": topic_page
 }
 
 
@@ -73,5 +74,3 @@ def dispath_ajax(parameters, action):
     if not method:
         return message("error", "", "错误的操作类型")
     return method(**parameters)
-
-

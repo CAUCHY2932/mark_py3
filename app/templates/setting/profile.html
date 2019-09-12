@@ -28,7 +28,7 @@
                             {%if loop.first%}
                             <div class="alert alert-success alert-dismissible" role="alert">
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                {{msg.decode("utf-8")}}
+                                {{msg}}
                             </div>
                             {%endif%}
                             {%endfor%}
@@ -37,7 +37,7 @@
                                 <div class="col-sm-9">
                                     <textarea id="" class="form-control {%if form.profile.errors%}input-error{%endif%}" name="profile" cols="5" rows="5" placeholder="个性说明">{%if form.profile.errors%}{{form.profile.data}}{%elif current_user.profile.profile%}{{current_user.profile.profile}}{%endif%}</textarea>
                                     {%for error in form.profile.errors%}
-                                    <div class="input-error-info">{{error.decode("utf-8")}}</div>
+                                    <div class="input-error-info">{{error}}</div>
                                     {%endfor%}
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                                 <div class="col-sm-9">
                                     <input class="form-control {%if form.residence.errors%}input-error{%endif%}" type="text" name="residence" placeholder="居住地址" {%if current_user.profile.residence%}value="{{current_user.profile.residence}}"{%endif%}>
                                     {%for error in form.residence.errors%}
-                                    <div class="input-error-info">{{error.decode("utf-8")}}</div>
+                                    <div class="input-error-info">{{error}}</div>
                                     {%endfor%}
                                     <span class="help-block">您目前的所在城市</span>
                                 </div>
@@ -56,7 +56,7 @@
                                 <div class="col-sm-9">
                                     <select id="profession" class="form-control" name="profession">
                                         {%for choice in form.profession.choices%}
-                                        <option {%if current_user.profile.profession == choice[0]%}selected{%elif not current_user.profile.profession%}selected{%endif%} value="{{choice[0]}}">{{choice[1].decode('utf-8')}}</option>
+                                        <option {%if current_user.profile.profession == choice[0]%}selected{%elif not current_user.profile.profession%}selected{%endif%} value="{{choice[0]}}">{{choice[1]}}</option>
                                         {%endfor%}
                                     </select>
                                     <span class="help-block">您从事的行业，如果是学生可选择”在校生“</span>
