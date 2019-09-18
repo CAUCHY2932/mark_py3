@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9b00e95-62ef-4275-bb8a-cd2baef1cf40" name="Default Changelist" comment="# [lvyangyang]- init mark project">
-      <change afterPath="$PROJECT_DIR$/app/static/resource/image/avatar/20_20_4444f2c2d52411e996efacbc327c1469.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/resource/image/avatar/20_20_57a1c636d52611e9957facbc327c1469.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/resource/image/avatar/4444f2c2d52411e996efacbc327c1469.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/resource/image/avatar/50_50_4444f2c2d52411e996efacbc327c1469.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/resource/image/avatar/50_50_57a1c636d52611e9957facbc327c1469.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/resource/image/avatar/57a1c636d52611e9957facbc327c1469.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/resource/image/avatar/thumbnail_4444f2c2d52411e996efacbc327c1469.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/resource/image/avatar/thumbnail_57a1c636d52611e9957facbc327c1469.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="e9b00e95-62ef-4275-bb8a-cd2baef1cf40" name="Default Changelist" comment="# [lvyangyang]- init mark project" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568256516844</updated>
       <workItem from="1568256520637" duration="6785000" />
+      <workItem from="1568799492902" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="# [lvyangyang]- init mark project">
       <created>1568260012857</created>
@@ -162,7 +154,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
