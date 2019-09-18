@@ -234,4 +234,8 @@
       </map>
     </option>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/markbj$avatar.coverage" NAME="avatar Coverage Results" MODIFIED="1568268612776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/common" />
+    <SUITE FILE_PATH="coverage/markbj$Flask__manage_py_.coverage" NAME="Flask (manage.py) Coverage Results" MODIFIED="1568268702376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
 </project>
