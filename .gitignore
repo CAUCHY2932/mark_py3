@@ -1,10 +1,13 @@
-<<<<<<< HEAD
 *.pyc
 *.swo
 *.swp
 .idea
 .vscode
-=======
+*.log
+logs
+config.py
+app/static/node_modules/
+app/static/resource/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -59,7 +62,6 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 db.sqlite3
 
@@ -96,17 +98,3 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
->>>>>>> 4224d59f6355139af96958bbe42a3b8ba9ccbf6b
